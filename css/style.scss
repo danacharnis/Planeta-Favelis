@@ -40,6 +40,8 @@ body {
     @include main-font;
     color: #040000;
     background-color: #ffffff;
+  
+
 }
 
 .layout_padding {
@@ -68,7 +70,10 @@ body {
 
 /*header section*/
 
-.hero_area {}
+.hero_area {
+    background-repeat: repeat-x;
+
+}
 
 .sub_page {
     .brand_box {
@@ -83,7 +88,8 @@ body {
     }
 }
 
-.custom_nav-container {}
+
+
 
 .brand_box {
     position: absolute;
@@ -100,6 +106,7 @@ body {
             font-weight: bold;
             color: $white;
             text-transform: uppercase;
+            background-repeat: repeat-x;
         }
     }
 }
@@ -133,6 +140,7 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
     background-image: url(../images/menu.png);
     background-size: 42px;
+    background-repeat: repeat-x;
 }
 
 .custom_nav-container .nav_search-btn {
